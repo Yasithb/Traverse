@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Traverse</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" 
+	rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+	<section class="sub-header">
+		<nav>
+			<a href="index.html"><img src="images/Newlogo.png">
+				<div class="nav-links" id="navLinks">
+					<i class="fa fa-times" onclick="hideMenu()"></i>
+					<ul>
+						<li><a href="index.html">HOME</a></li>
+						<li><a href="about.html">ABOUT</a></li>
+						<li><a href="tour.html">TOUR</a></li>
+						<li><a href="blog.html">BLOG</a></li>
+						<li><a href="contact.html">CONTACT</a></li>
+					</ul>
+					
+				</div>
+				<i class="fa fa-bars" onclick="showMenu()"></i>
+		</nav>
+
+		<h1 style="font-size: 50px;">Our Tours</h1>
+		
+	</section>
+
+<!----- Destinations ------>
+
+<section class="destinations">
+	<h1>Tours we offer</h1>
+	<p>Lorem ipsum dolor sit amet consectetur adipisicing, elit. Quidem quod excepturi unde quae, eligendi sequi rerum pariatur verita</p>
+
+	<div class="row">
+		<div class="class-col">
+			<h3>London</h3>
+			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt nostrum ipsam recusandae, ut rerum, laudantium, officia pariatur nobis tempora facere quo. Non harum quibusdam enim voluptatum laudantium ipsa aperiam eum?</p>
+			<a href ="" class="hero-btn1">BOOK NOW</a>
+		</div>
+		<div class="class-col">
+			<h3>Newyork</h3>
+			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt nostrum ipsam recusandae, ut rerum, laudantium, officia pariatur nobis tempora facere quo. Non harum quibusdam enim voluptatum laudantium ipsa aperiam eum?</p>
+			<a href ="" class="hero-btn1">BOOK NOW</a>
+		</div>
+		<div class="class-col">
+			<h3>Washington</h3>
+			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt nostrum ipsam recusandae, ut rerum, laudantium, officia pariatur nobis tempora facere quo. Non harum quibusdam enim voluptatum laudantium ipsa aperiam eum?</p>
+			<a href ="" class="hero-btn1">BOOK NOW</a>
+		</div>
+		
+	</div>
+
+	<div class="row">
+		<div class="class-col">
+			<h3>Melborn</h3>
+			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt nostrum ipsam recusandae, ut rerum, laudantium, officia pariatur nobis tempora facere quo. Non harum quibusdam enim voluptatum laudantium ipsa aperiam eum?</p>
+			<a href ="" class="hero-btn1">BOOK NOW</a>
+		</div>
+		<div class="class-col">
+			<h3>Moscow</h3>
+			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt nostrum ipsam recusandae, ut rerum, laudantium, officia pariatur nobis tempora facere quo. Non harum quibusdam enim voluptatum laudantium ipsa aperiam eum?</p>
+			<a href ="" class="hero-btn1">BOOK NOW</a>
+		</div>
+		<div class="class-col">
+			<h3>Tokiyo</h3>
+			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt nostrum ipsam recusandae, ut rerum, laudantium, officia pariatur nobis tempora facere quo. Non harum quibusdam enim voluptatum laudantium ipsa aperiam eum?</p>
+			<a href ="" class="hero-btn1">BOOK NOW</a>
+		</div>
+		
+	</div>
+	
+</section>
+
+<!-- ------- Packages ------>
+
+<section class="packages">
+	<h1>Our Facilities</h1>
+	<p>Welcome to our travel agency, where seamless experiences and memorable journeys are our top priorities</p>
+
+	<div class="row">
+
+		<div class="packages-col">
+			<img src="images/facility1.jpg">
+			<h3>Booking Services</h3>
+			<p></p>
+	
+		</div>
+
+		<div class="packages-col">
+			<img src="images/facility2.jpg">
+			<h3>Transportation options</h3>
+			<p></p>
+
+		</div>
+
+		<div class="packages-col">
+			<img src="images/facility3.jpg">
+			<h3>Tasty & Healthy Food</h3>
+			<p></p>
+
+		</div>
+
+		<div class="packages-col">
+			<img src="images/facility4.jpg">
+			<h3>Emergency Assistance</h3>
+			<p></p>
+
+		</div>
+
+		<div class="packages-col">
+			<img src="images/facility4.jpg">
+			<h3>Emergency Assistance</h3>
+			<p></p>
+
+		</div>
+		
+	</div>
+</section>
+
+
+<!----- Footer------>
+<section class="Footer">
+	<h4 style="font-size: 35px;">About Us</h4>
+	<p style="color: black; font-weight: 350; font-size: large;">At <b>Traverse</b> we pride ourselves on crafting extraordinary travel experiences that surpass expectations. With a passion for exploration, we offer seamless journeys, blending luxury, affordability, and unique adventures.</p>
+	
+	<div class="icons">
+		<i class="fa fa-facebook"></i>
+		<i class="fa fa-youtube"></i>
+		<i class="fa fa-twitter"></i>
+		<i class="fa fa-instagram"></i>
+	</div>
+	<p>Made by <i class="fa fa-heart-o"></i> 21CIS0069 Yasith</p>
+</section>
+
+
+<!---------Javascript for Toggle Menu-------->
+
+	<script>
+		var navLinks = document.getElementById("navLinks");
+		function showMenu(){
+			navLinks.style.right = "0";
+		}
+
+		function hideMenu(){
+			navLinks.style.right = "-200px";
+		}
+
+	</script>
+</body>
+</html>
